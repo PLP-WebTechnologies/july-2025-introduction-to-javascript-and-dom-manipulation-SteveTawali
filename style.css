@@ -1,0 +1,77 @@
+/* Basic styling for JavaScript assignment */
+
+/* Page layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Section containers */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Form elements */
+input, button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007cba;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #005a87;
+}
+
+/* Result display areas */
+div[id^="result"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e8f4fd;
+    border-left: 4px solid #007cba;
+    border-radius: 3px;
+}
+
+/* DOM manipulation elements */
+#styleDiv {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+#styleDiv.changed {
+    background-color: #ffeb3b;
+    color: #333;
+}
+
+/* Dynamic list items */
+li {
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+}
